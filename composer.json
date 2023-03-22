@@ -1,0 +1,17 @@
+{
+    "name": "my/dependency",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chung Nguyen",
+            "email": "chung.nguyen1@tda.company"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0"
+    }
+}
